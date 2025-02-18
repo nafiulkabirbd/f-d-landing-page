@@ -362,5 +362,50 @@ body {
   width: 20%;
   margin-left: 10px;
 }
-
 /* discount style end */
+
+/* footer style start */
+.footer-container {
+  background-color: #222224;
+  padding: 50px 300px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  color: #ec994b;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+
+.icon-container {
+  padding-top: 10px;
+}
+
+.footer-menu-title {
+  color: #e2e2e2;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.footer-menu-item {
+  color: #e2e2e2;
+  font-size: 18.725px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 113px;
+}
+/* footer style end */
