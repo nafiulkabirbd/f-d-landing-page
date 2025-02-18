@@ -4,9 +4,14 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
-  background-color: #fef9f5;
 }
 /* global style end */
+
+/* common style start */
+body {
+  background-color: #fffaf5;
+}
+/* common style end */
 
 /* header style start */
 .header {
@@ -281,7 +286,7 @@
 .about-container {
   width: 1240px;
   margin: 0px auto;
-  padding-top: 143px;
+  padding: 143px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -310,3 +315,52 @@
   margin-top: 20px;
 }
 /* about us style end */
+
+/* discount style start */
+.discount-section {
+  background-color: #ec994b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 300px;
+}
+
+.discount-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+}
+
+.discount-details {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  margin-top: 16px;
+}
+
+.discount-form {
+  margin-top: 16px;
+}
+
+.form input[type="email"] {
+  padding: 18px 35px;
+  color: #2d2d2d;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 0;
+  width: 70%;
+}
+
+.form input[type="submit"] {
+  padding: 18px 35px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #222224;
+  border: 0;
+  width: 20%;
+  margin-left: 10px;
+}
+
+/* discount style end */
