@@ -1,5 +1,8 @@
+/* global style start */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Montserrat", serif;
 }
+/* global style end */
