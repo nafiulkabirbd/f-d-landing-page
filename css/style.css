@@ -6,3 +6,43 @@
   font-family: "Montserrat", serif;
 }
 /* global style end */
+
+/* header style start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+  padding-top: 50px;
+}
+
+.logo {
+  color: #ec994b;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  width: 170px;
+  height: 50px;
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+}
+
+.navbar ul li a {
+  color: #222224;
+  text-decoration: none;
+}
+/* header style end */
