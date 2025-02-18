@@ -92,3 +92,24 @@
   margin-top: 35px;
 }
 /* banner style end */
+
+/* logo style start */
+.logo-container {
+  width: 1240px;
+  margin: 0px auto;
+}
+
+.logo-title {
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 78px;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* logo style end */
