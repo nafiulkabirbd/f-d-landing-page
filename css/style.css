@@ -164,3 +164,54 @@
   margin-top: 16px;
 }
 /* service style end */
+
+/* food style start */
+.food-section {
+  width: 1240px;
+  margin: 0px auto;
+  padding-top: 143px;
+}
+
+.food-sub-title {
+  color: #ec994b;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.food-title {
+  color: #222224;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.food-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 82px;
+}
+
+.food-box {
+  width: 300px;
+}
+
+.food-img {
+  width: 70%;
+}
+
+.food-name {
+  color: #222224;
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  font-size: 28px;
+  font-weight: 600;
+}
+.food-price {
+  color: #222224;
+  text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+  font-size: 24px;
+  font-weight: 700;
+}
+/* food style end */
