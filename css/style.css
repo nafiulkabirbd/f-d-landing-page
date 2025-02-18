@@ -276,3 +276,37 @@
   margin-top: 7px;
 }
 /* review style end */
+
+/* about us style start */
+.about-container {
+  width: 1240px;
+  margin: 0px auto;
+  padding-top: 143px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.about-sub-title {
+  color: #ec994b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.about-title {
+  color: #222224;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  margin-top: 20px;
+}
+
+.about-details {
+  color: #b5b5b5;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+}
+/* about us style end */
